@@ -1,0 +1,30 @@
+[0.057s] Invoking command in '/home/droid/ros2_ws/build/robo_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake /home/droid/ros2_ws/src/robo_urdf_description -DCMAKE_INSTALL_PREFIX=/home/droid/ros2_ws/install/robo_urdf_description
+[1.685s] -- The C compiler identification is GNU 13.3.0
+[2.461s] -- The CXX compiler identification is GNU 13.3.0
+[2.539s] -- Detecting C compiler ABI info
+[2.994s] -- Detecting C compiler ABI info - done
+[3.032s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.034s] -- Detecting C compile features
+[3.074s] -- Detecting C compile features - done
+[3.092s] -- Detecting CXX compiler ABI info
+[3.455s] -- Detecting CXX compiler ABI info - done
+[3.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.490s] -- Detecting CXX compile features
+[3.492s] -- Detecting CXX compile features - done
+[3.505s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.965s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.780s] -- Configuring done (4.1s)
+[4.788s] -- Generating done (0.0s)
+[4.794s] -- Build files have been written to: /home/droid/ros2_ws/build/robo_urdf_description
+[4.810s] Invoked command in '/home/droid/ros2_ws/build/robo_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake /home/droid/ros2_ws/src/robo_urdf_description -DCMAKE_INSTALL_PREFIX=/home/droid/ros2_ws/install/robo_urdf_description
+[4.813s] Invoking command in '/home/droid/ros2_ws/build/robo_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/robo_urdf_description -- -j4 -l4
+[4.931s] Invoked command in '/home/droid/ros2_ws/build/robo_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/robo_urdf_description -- -j4 -l4
+[4.934s] Invoking command in '/home/droid/ros2_ws/build/robo_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/robo_urdf_description
+[4.959s] -- Install configuration: ""
+[4.960s] [31mCMake Error at cmake_install.cmake:46 (file):
+[4.960s]   file INSTALL cannot find
+[4.961s]   "/home/droid/ros2_ws/src/robo_urdf_description/launch": No such file or
+[4.961s]   directory.
+[4.962s] 
+[4.962s] [0m
+[4.964s] Invoked command in '/home/droid/ros2_ws/build/robo_urdf_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/robo_urdf_description

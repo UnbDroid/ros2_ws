@@ -1,0 +1,1 @@
+/home/droid/ros2_ws/src/robo_urdf_description/launch/navigation_lite_launch2.py

@@ -1,0 +1,18 @@
+[0.064s] Invoking command in '/home/droid/ros2_ws/build/micro_ros_setup': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake /home/droid/ros2_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/droid/ros2_ws/install/micro_ros_setup
+[2.196s] -- The C compiler identification is GNU 13.3.0
+[2.896s] -- The CXX compiler identification is unknown
+[3.019s] -- Detecting C compiler ABI info
+[3.714s] -- Detecting C compiler ABI info - done
+[3.806s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.812s] -- Detecting C compile features
+[3.818s] -- Detecting C compile features - done
+[3.829s] [31mCMake Error at CMakeLists.txt:2 (project):
+[3.830s]   No CMAKE_CXX_COMPILER could be found.
+[3.830s] 
+[3.831s]   Tell CMake where to find the compiler by setting either the environment
+[3.832s]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[3.833s]   to the compiler, or to the compiler name if it is in the PATH.
+[3.834s] 
+[3.835s] [0m
+[3.838s] -- Configuring incomplete, errors occurred!
+[3.916s] Invoked command in '/home/droid/ros2_ws/build/micro_ros_setup' returned '1': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake /home/droid/ros2_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/droid/ros2_ws/install/micro_ros_setup

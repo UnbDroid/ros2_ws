@@ -1,0 +1,52 @@
+[0.153s] Invoking command in '/home/droid/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.593s] [ 90%] Built target sllidar_node
+[2.004s] [100%] Built target sllidar_client
+[2.186s] Invoked command in '/home/droid/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[2.195s] Invoking command in '/home/droid/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/sllidar_ros2
+[2.240s] -- Install configuration: ""
+[2.241s] -- Execute custom install script
+[2.245s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[2.246s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[2.252s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[2.256s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[2.261s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[2.262s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[2.263s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[2.263s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[2.264s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[2.265s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[2.266s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[2.267s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[2.271s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[2.272s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[2.279s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[2.280s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[2.292s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[2.296s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[2.296s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[2.298s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[2.298s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[2.299s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[2.299s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[2.306s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[2.307s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[2.317s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[2.317s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[2.317s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[2.318s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[2.318s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[2.320s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[2.321s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[2.322s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[2.327s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[2.328s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[2.329s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[2.331s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[2.331s] -- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[2.387s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[2.395s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.396s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.397s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[2.398s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[2.399s] -- Up-to-date symlink: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[2.412s] Invoked command in '/home/droid/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/sllidar_ros2

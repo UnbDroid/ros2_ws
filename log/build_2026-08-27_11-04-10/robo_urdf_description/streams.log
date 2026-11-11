@@ -1,0 +1,40 @@
+[0.106s] Invoking command in '/home/droid/ros2_ws/build/robo_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake /home/droid/ros2_ws/src/robo_urdf_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/droid/ros2_ws/install/robo_urdf_description
+[1.319s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.286s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.681s] -- Configuring done (1.5s)
+[2.731s] -- Generating done (0.0s)
+[2.737s] -- Build files have been written to: /home/droid/ros2_ws/build/robo_urdf_description
+[2.744s] Invoked command in '/home/droid/ros2_ws/build/robo_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake /home/droid/ros2_ws/src/robo_urdf_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/droid/ros2_ws/install/robo_urdf_description
+[2.770s] Invoking command in '/home/droid/ros2_ws/build/robo_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/robo_urdf_description -- -j4 -l4
+[2.872s] Invoked command in '/home/droid/ros2_ws/build/robo_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/robo_urdf_description -- -j4 -l4
+[2.877s] Invoking command in '/home/droid/ros2_ws/build/robo_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/robo_urdf_description
+[2.912s] -- Install configuration: ""
+[2.914s] -- Execute custom install script
+[2.918s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/launch/bringup_launch.py
+[2.918s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/launch/robo.launch.py
+[2.921s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/urdf/materials.xacro
+[2.922s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/urdf/robo_urdf.gazebo
+[2.923s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/urdf/robo_urdf.trans
+[2.924s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/urdf/robo_urdf.xacro
+[2.928s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/base_link.stl
+[2.929s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/lidar_link_1.stl
+[2.930s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/wheel_front_left_1.stl
+[2.931s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/wheel_front_right_1.stl
+[2.932s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/wheel_rear_left_1.stl
+[2.933s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/wheel_rear_right_1.stl
+[2.934s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/ament_index/resource_index/package_run_dependencies/robo_urdf_description
+[2.936s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/ament_index/resource_index/parent_prefix_path/robo_urdf_description
+[2.937s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/environment/ament_prefix_path.sh
+[2.938s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/environment/ament_prefix_path.dsv
+[2.940s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/environment/path.sh
+[2.941s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/environment/path.dsv
+[2.942s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/local_setup.bash
+[2.943s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/local_setup.sh
+[2.945s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/local_setup.zsh
+[2.945s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/local_setup.dsv
+[2.946s] -- Symlinking: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.dsv
+[2.981s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/ament_index/resource_index/packages/robo_urdf_description
+[2.983s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/cmake/robo_urdf_descriptionConfig.cmake
+[2.984s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/cmake/robo_urdf_descriptionConfig-version.cmake
+[2.985s] -- Up-to-date symlink: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.xml
+[2.992s] Invoked command in '/home/droid/ros2_ws/build/robo_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/robo_urdf_description

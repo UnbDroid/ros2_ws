@@ -1,0 +1,65 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Configuring done (3.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/droid/ros2_ws/build/sllidar_ros2
+[  5%] [32m[1mLinking CXX executable sllidar_client[0m
+[ 10%] [32m[1mLinking CXX executable sllidar_node[0m
+[ 95%] Built target sllidar_node
+[100%] Built target sllidar_client
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+-- Symlinking: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml

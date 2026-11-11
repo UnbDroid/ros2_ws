@@ -1,0 +1,18 @@
+[0.063s] Invoking command in '/home/droid/ros2_ws/build/sllidar_ros2': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake /home/droid/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/droid/ros2_ws/install/sllidar_ros2
+[2.155s] -- The C compiler identification is GNU 13.3.0
+[2.858s] -- The CXX compiler identification is unknown
+[2.978s] -- Detecting C compiler ABI info
+[3.676s] -- Detecting C compiler ABI info - done
+[3.765s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.772s] -- Detecting C compile features
+[3.778s] -- Detecting C compile features - done
+[3.782s] [31mCMake Error at CMakeLists.txt:5 (project):
+[3.783s]   No CMAKE_CXX_COMPILER could be found.
+[3.784s] 
+[3.785s]   Tell CMake where to find the compiler by setting either the environment
+[3.786s]   variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+[3.787s]   to the compiler, or to the compiler name if it is in the PATH.
+[3.788s] 
+[3.788s] [0m
+[3.797s] -- Configuring incomplete, errors occurred!
+[3.869s] Invoked command in '/home/droid/ros2_ws/build/sllidar_ros2' returned '1': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake /home/droid/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/droid/ros2_ws/install/sllidar_ros2

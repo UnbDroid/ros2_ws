@@ -1,0 +1,265 @@
+[1.218s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.219s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb79f8ce0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb79de1e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb79de1e0>>)
+[1.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.660s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/droid/ros2_ws'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[1.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[2.001s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_urdf_description) by extensions ['ignore', 'ignore_ament_install']
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_urdf_description) by extension 'ignore'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_urdf_description) by extension 'ignore_ament_install'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_urdf_description) by extensions ['colcon_pkg']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_urdf_description) by extension 'colcon_pkg'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_urdf_description) by extensions ['colcon_meta']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_urdf_description) by extension 'colcon_meta'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_urdf_description) by extensions ['ros']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/robo_urdf_description) by extension 'ros'
+[2.013s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robo_urdf_description' with type 'ros.ament_cmake' and name 'robo_urdf_description'
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[2.026s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[2.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.249s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/droid/ros2_ws/install
+[2.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/droid/lidar_ws/install
+[2.273s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 355 installed packages in /opt/ros/jazzy
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.068s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[3.069s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[3.069s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.069s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.071s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[3.071s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[3.073s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[3.075s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.075s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.076s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/droid/ros2_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/droid/ros2_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/droid/ros2_ws/src/micro_ros_setup', 'symlink_install': True, 'test_result_base': None}
+[3.081s] Level 5:colcon.colcon_core.verb:set package 'robo_urdf_description' build argument 'cmake_args' from command line to 'None'
+[3.081s] Level 5:colcon.colcon_core.verb:set package 'robo_urdf_description' build argument 'cmake_target' from command line to 'None'
+[3.081s] Level 5:colcon.colcon_core.verb:set package 'robo_urdf_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.081s] Level 5:colcon.colcon_core.verb:set package 'robo_urdf_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.082s] Level 5:colcon.colcon_core.verb:set package 'robo_urdf_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.082s] Level 5:colcon.colcon_core.verb:set package 'robo_urdf_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.082s] Level 5:colcon.colcon_core.verb:set package 'robo_urdf_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.082s] Level 5:colcon.colcon_core.verb:set package 'robo_urdf_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.082s] Level 5:colcon.colcon_core.verb:set package 'robo_urdf_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.083s] DEBUG:colcon.colcon_core.verb:Building package 'robo_urdf_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/droid/ros2_ws/build/robo_urdf_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/droid/ros2_ws/install/robo_urdf_description', 'merge_install': False, 'path': '/home/droid/ros2_ws/src/robo_urdf_description', 'symlink_install': True, 'test_result_base': None}
+[3.086s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[3.087s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[3.087s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.087s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.089s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[3.089s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[3.089s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.090s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/droid/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/droid/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/droid/ros2_ws/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[3.091s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.107s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/droid/ros2_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[3.107s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/droid/ros2_ws/src/micro_ros_setup'
+[3.122s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.164s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/droid/ros2_ws/src/robo_urdf_description' with build type 'ament_cmake'
+[3.164s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/droid/ros2_ws/src/robo_urdf_description'
+[3.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/droid/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[3.203s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/droid/ros2_ws/src/sllidar_ros2'
+[3.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.209s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/droid/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[3.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/droid/ros2_ws/build/robo_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/robo_urdf_description -- -j4 -l4
+[3.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/droid/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[3.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/droid/ros2_ws/build/robo_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/robo_urdf_description -- -j4 -l4
+[3.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/droid/ros2_ws/build/robo_urdf_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/robo_urdf_description
+[3.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/droid/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[4.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/droid/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/micro_ros_setup
+[4.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/droid/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[4.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/droid/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/sllidar_ros2
+[4.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_urdf_description)
+[4.668s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description' for CMake module files
+[4.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/droid/ros2_ws/build/robo_urdf_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/robo_urdf_description
+[4.690s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description' for CMake config files
+[4.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_urdf_description', 'cmake_prefix_path')
+[4.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/hook/cmake_prefix_path.ps1'
+[4.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/hook/cmake_prefix_path.dsv'
+[4.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/hook/cmake_prefix_path.sh'
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description/bin'
+[4.733s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description/lib/pkgconfig/robo_urdf_description.pc'
+[4.735s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description/lib/python3.12/site-packages'
+[4.741s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description/bin'
+[4.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.ps1'
+[4.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.dsv'
+[4.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.sh'
+[4.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.bash'
+[4.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.zsh'
+[4.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/droid/ros2_ws/install/robo_urdf_description/share/colcon-core/packages/robo_urdf_description)
+[4.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_urdf_description)
+[4.840s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description' for CMake module files
+[4.853s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description' for CMake config files
+[4.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_urdf_description', 'cmake_prefix_path')
+[4.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/hook/cmake_prefix_path.ps1'
+[4.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/hook/cmake_prefix_path.dsv'
+[4.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/hook/cmake_prefix_path.sh'
+[4.907s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description/bin'
+[4.911s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description/lib/pkgconfig/robo_urdf_description.pc'
+[4.913s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description/lib/python3.12/site-packages'
+[4.917s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/robo_urdf_description/bin'
+[4.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.ps1'
+[4.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.dsv'
+[4.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.sh'
+[4.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.bash'
+[4.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.zsh'
+[4.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/droid/ros2_ws/install/robo_urdf_description/share/colcon-core/packages/robo_urdf_description)
+[5.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[5.009s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup' for CMake module files
+[5.020s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup' for CMake config files
+[5.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[5.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[5.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[5.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[5.051s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/lib'
+[5.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/droid/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/micro_ros_setup
+[5.057s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/bin'
+[5.061s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[5.065s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[5.066s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/bin'
+[5.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[5.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[5.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[5.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[5.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[5.082s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/droid/ros2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[5.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[5.086s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup' for CMake module files
+[5.091s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup' for CMake config files
+[5.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[5.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[5.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[5.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[5.112s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/lib'
+[5.112s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/bin'
+[5.113s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[5.118s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[5.120s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/micro_ros_setup/bin'
+[5.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[5.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[5.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[5.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[5.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[5.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/droid/ros2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[5.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[5.158s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2' for CMake module files
+[5.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/droid/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/sllidar_ros2
+[5.169s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2' for CMake config files
+[5.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[5.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[5.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[5.193s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/lib'
+[5.198s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/bin'
+[5.203s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[5.209s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[5.224s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/bin'
+[5.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[5.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[5.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[5.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[5.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[5.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/droid/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[5.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[5.267s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2' for CMake module files
+[5.269s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2' for CMake config files
+[5.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[5.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[5.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[5.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[5.292s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/lib'
+[5.292s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/bin'
+[5.293s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[5.296s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[5.299s] Level 1:colcon.colcon_core.environment:checking '/home/droid/ros2_ws/install/sllidar_ros2/bin'
+[5.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[5.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[5.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[5.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[5.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[5.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/droid/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[5.336s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.343s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.357s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droid/ros2_ws/install/local_setup.ps1'
+[5.392s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/droid/ros2_ws/install/_local_setup_util_ps1.py'
+[5.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droid/ros2_ws/install/setup.ps1'
+[5.419s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droid/ros2_ws/install/local_setup.sh'
+[5.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/droid/ros2_ws/install/_local_setup_util_sh.py'
+[5.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droid/ros2_ws/install/setup.sh'
+[5.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droid/ros2_ws/install/local_setup.bash'
+[5.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droid/ros2_ws/install/setup.bash'
+[5.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/droid/ros2_ws/install/local_setup.zsh'
+[5.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/droid/ros2_ws/install/setup.zsh'

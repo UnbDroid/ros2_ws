@@ -1,0 +1,1 @@
+/home/droid/ros2_ws/build/robo_urdf_description/ament_cmake_core/robo_urdf_descriptionConfig.cmake

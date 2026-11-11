@@ -1,0 +1,162 @@
+[0.223s] Invoking command in '/home/droid/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[1.345s] Invoked command in '/home/droid/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --build /home/droid/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[1.453s] Invoking command in '/home/droid/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/micro_ros_setup
+[1.551s] -- Install configuration: ""
+[1.559s] -- Execute custom install script
+[1.568s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[1.580s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[1.585s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[1.586s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[1.598s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[1.598s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[1.601s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[1.610s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[1.611s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[1.623s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[1.644s] -- Symlinking: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[1.725s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[1.734s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[1.762s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[1.771s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[1.809s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[1.815s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[1.821s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[1.830s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[1.837s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[1.884s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[1.894s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[1.894s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[1.918s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[1.926s] -- Up-to-date symlink: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[1.935s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config
+[1.952s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian
+[1.963s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic
+[1.963s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[1.969s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[1.971s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[1.975s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[1.986s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[1.993s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[1.997s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[2.008s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[2.013s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[2.017s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[2.031s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[2.040s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib
+[2.046s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic
+[2.047s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[2.049s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[2.057s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[2.066s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[2.075s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[2.077s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[2.087s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[2.092s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[2.093s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[2.102s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[2.105s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host
+[2.113s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic
+[2.114s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[2.115s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[2.125s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[2.128s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[2.144s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[2.145s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[2.145s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[2.186s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[2.187s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[2.187s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[2.193s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/utils.sh
+[2.201s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr
+[2.202s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic
+[2.203s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[2.203s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[2.211s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[2.216s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[2.216s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[2.217s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[2.220s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[2.222s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[2.226s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[2.228s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[2.238s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[2.239s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[2.253s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android
+[2.254s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic
+[2.255s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[2.256s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[2.257s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[2.258s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[2.267s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[2.275s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[2.279s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[2.293s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[2.299s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos
+[2.301s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[2.305s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[2.309s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[2.319s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[2.320s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[2.334s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[2.342s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[2.343s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[2.350s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[2.354s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[2.357s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[2.362s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[2.366s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[2.371s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[2.389s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[2.390s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[2.393s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[2.395s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[2.399s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[2.408s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[2.419s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[2.423s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[2.437s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[2.441s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[2.448s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[2.455s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[2.465s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[2.467s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[2.474s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[2.479s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[2.486s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32
+[2.491s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[2.492s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[2.494s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[2.495s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[2.496s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[2.500s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[2.505s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[2.509s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[2.510s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[2.511s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[2.511s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[2.512s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[2.516s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[2.521s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[2.523s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[2.526s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[2.526s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[2.527s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[2.527s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[2.534s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[2.535s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[2.542s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[2.553s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[2.555s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[2.560s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[2.562s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[2.562s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[2.563s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[2.566s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[2.567s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[2.570s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[2.577s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[2.579s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[2.582s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[2.600s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[2.605s] -- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[2.617s] Invoked command in '/home/droid/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\] /usr/bin/cmake --install /home/droid/ros2_ws/build/micro_ros_setup

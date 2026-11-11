@@ -1,0 +1,1096 @@
+[0.000000] (-) TimerEvent: {}
+[0.001320] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.002195] (robo_urdf_description) JobQueued: {'identifier': 'robo_urdf_description', 'dependencies': OrderedDict()}
+[0.002335] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.002394] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.023319] (robo_urdf_description) JobStarted: {'identifier': 'robo_urdf_description'}
+[0.038900] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.059097] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.060768] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.062502] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droid/ros2_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/droid/ros2_ws/build/micro_ros_setup', 'env': OrderedDict({'USER': 'droid', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'TEXTDOMAIN': 'pam_chksshpwd', 'HOSTNAME': 'DROID', 'XDG_SESSION_TYPE': 'tty', 'XDG_CACHE_HOME': '/home/droid/.cache', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/droid', 'OLDPWD': '/home/droid', 'FASTDDS_BUILTIN_TRANSPORTS': 'UDPv4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w \\$\\[\\033[00m\\]', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'XDG_STATE_HOME': '/home/droid/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'container': 'podman', 'COLCON_PREFIX_PATH': '/home/droid/lidar_ws/install:/home/droid/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droid', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_GB.UTF-8', 'XDG_DATA_HOME': '/home/droid/.local/share', 'XDG_CONFIG_HOME': '/home/droid/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry', 'SHELL': '/usr/bin/bash', 'NO_AT_BRIDGE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droid/ros2_ws/build/micro_ros_setup', 'CONTAINER_ID': 'ROS2-Jazzy', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry:/opt/ros/jazzy'}), 'shell': False}
+[0.070055] (robo_urdf_description) JobProgress: {'identifier': 'robo_urdf_description', 'progress': 'cmake'}
+[0.072061] (robo_urdf_description) JobProgress: {'identifier': 'robo_urdf_description', 'progress': 'build'}
+[0.072842] (robo_urdf_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droid/ros2_ws/build/robo_urdf_description', '--', '-j4', '-l4'], 'cwd': '/home/droid/ros2_ws/build/robo_urdf_description', 'env': OrderedDict({'USER': 'droid', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'TEXTDOMAIN': 'pam_chksshpwd', 'HOSTNAME': 'DROID', 'XDG_SESSION_TYPE': 'tty', 'XDG_CACHE_HOME': '/home/droid/.cache', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/droid', 'OLDPWD': '/home/droid', 'FASTDDS_BUILTIN_TRANSPORTS': 'UDPv4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w \\$\\[\\033[00m\\]', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'XDG_STATE_HOME': '/home/droid/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'container': 'podman', 'COLCON_PREFIX_PATH': '/home/droid/lidar_ws/install:/home/droid/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droid', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_GB.UTF-8', 'XDG_DATA_HOME': '/home/droid/.local/share', 'XDG_CONFIG_HOME': '/home/droid/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry', 'SHELL': '/usr/bin/bash', 'NO_AT_BRIDGE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droid/ros2_ws/build/robo_urdf_description', 'CONTAINER_ID': 'ROS2-Jazzy', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry:/opt/ros/jazzy'}), 'shell': False}
+[0.089909] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.090137] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.090311] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/droid/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/droid/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'USER': 'droid', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'TEXTDOMAIN': 'pam_chksshpwd', 'HOSTNAME': 'DROID', 'XDG_SESSION_TYPE': 'tty', 'XDG_CACHE_HOME': '/home/droid/.cache', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/droid', 'OLDPWD': '/home/droid', 'FASTDDS_BUILTIN_TRANSPORTS': 'UDPv4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w \\$\\[\\033[00m\\]', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'XDG_STATE_HOME': '/home/droid/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'container': 'podman', 'COLCON_PREFIX_PATH': '/home/droid/lidar_ws/install:/home/droid/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droid', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_GB.UTF-8', 'XDG_DATA_HOME': '/home/droid/.local/share', 'XDG_CONFIG_HOME': '/home/droid/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry', 'SHELL': '/usr/bin/bash', 'NO_AT_BRIDGE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droid/ros2_ws/build/sllidar_ros2', 'CONTAINER_ID': 'ROS2-Jazzy', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry:/opt/ros/jazzy'}), 'shell': False}
+[0.099307] (-) TimerEvent: {}
+[0.200102] (-) TimerEvent: {}
+[0.210349] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.214381] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.246573] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/droid/ros2_ws/build/micro_ros_setup'], 'cwd': '/home/droid/ros2_ws/build/micro_ros_setup', 'env': OrderedDict({'USER': 'droid', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'TEXTDOMAIN': 'pam_chksshpwd', 'HOSTNAME': 'DROID', 'XDG_SESSION_TYPE': 'tty', 'XDG_CACHE_HOME': '/home/droid/.cache', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/droid', 'OLDPWD': '/home/droid', 'FASTDDS_BUILTIN_TRANSPORTS': 'UDPv4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w \\$\\[\\033[00m\\]', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'XDG_STATE_HOME': '/home/droid/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'container': 'podman', 'COLCON_PREFIX_PATH': '/home/droid/lidar_ws/install:/home/droid/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droid', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_GB.UTF-8', 'XDG_DATA_HOME': '/home/droid/.local/share', 'XDG_CONFIG_HOME': '/home/droid/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry', 'SHELL': '/usr/bin/bash', 'NO_AT_BRIDGE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droid/ros2_ws/build/micro_ros_setup', 'CONTAINER_ID': 'ROS2-Jazzy', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry:/opt/ros/jazzy'}), 'shell': False}
+[0.269746] (robo_urdf_description) CommandEnded: {'returncode': 0}
+[0.271534] (robo_urdf_description) JobProgress: {'identifier': 'robo_urdf_description', 'progress': 'install'}
+[0.281784] (sllidar_ros2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o\x1b[0m\n'}
+[0.283108] (robo_urdf_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/droid/ros2_ws/build/robo_urdf_description'], 'cwd': '/home/droid/ros2_ws/build/robo_urdf_description', 'env': OrderedDict({'USER': 'droid', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'TEXTDOMAIN': 'pam_chksshpwd', 'HOSTNAME': 'DROID', 'XDG_SESSION_TYPE': 'tty', 'XDG_CACHE_HOME': '/home/droid/.cache', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/droid', 'OLDPWD': '/home/droid', 'FASTDDS_BUILTIN_TRANSPORTS': 'UDPv4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w \\$\\[\\033[00m\\]', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'XDG_STATE_HOME': '/home/droid/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'container': 'podman', 'COLCON_PREFIX_PATH': '/home/droid/lidar_ws/install:/home/droid/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droid', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_GB.UTF-8', 'XDG_DATA_HOME': '/home/droid/.local/share', 'XDG_CONFIG_HOME': '/home/droid/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry', 'SHELL': '/usr/bin/bash', 'NO_AT_BRIDGE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droid/ros2_ws/build/robo_urdf_description', 'CONTAINER_ID': 'ROS2-Jazzy', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry:/opt/ros/jazzy'}), 'shell': False}
+[0.284550] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[0.285196] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[0.300452] (-) TimerEvent: {}
+[0.314554] (robo_urdf_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.317182] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/launch\n'}
+[0.319608] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/launch/robo.launch.py\n'}
+[0.320652] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/urdf\n'}
+[0.324605] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/urdf/robo_urdf.trans\n'}
+[0.327577] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/urdf/materials.xacro\n'}
+[0.328541] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/urdf/robo_urdf.xacro\n'}
+[0.332385] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/urdf/robo_urdf.gazebo\n'}
+[0.340581] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes\n'}
+[0.341137] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/lidar_link_1.stl\n'}
+[0.341710] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/wheel_front_left_1.stl\n'}
+[0.346703] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/base_link.stl\n'}
+[0.347513] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.348156] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.348610] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.349073] (sllidar_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[0.357995] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/wheel_rear_right_1.stl\n'}
+[0.362499] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/wheel_rear_left_1.stl\n'}
+[0.363239] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.364023] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.364706] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.365305] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/meshes/wheel_front_right_1.stl\n'}
+[0.370010] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/ament_index/resource_index/package_run_dependencies/robo_urdf_description\n'}
+[0.370477] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/ament_index/resource_index/parent_prefix_path/robo_urdf_description\n'}
+[0.370964] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/environment/ament_prefix_path.sh\n'}
+[0.371387] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/environment/ament_prefix_path.dsv\n'}
+[0.371838] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.372314] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.372729] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.373292] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.373890] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.374494] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.374845] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.375165] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/environment/path.sh\n'}
+[0.375818] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.376429] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/environment/path.dsv\n'}
+[0.376934] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.377353] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.377868] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config\n'}
+[0.378369] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/local_setup.bash\n'}
+[0.378854] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/local_setup.sh\n'}
+[0.379204] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/local_setup.zsh\n'}
+[0.379508] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/local_setup.dsv\n'}
+[0.379829] (robo_urdf_description) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.dsv\n'}
+[0.380181] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian\n'}
+[0.380556] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.380855] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.381166] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.381530] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.390359] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.390710] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.391102] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/ament_index/resource_index/packages/robo_urdf_description\n'}
+[0.391512] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/cmake/robo_urdf_descriptionConfig.cmake\n'}
+[0.391908] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/cmake/robo_urdf_descriptionConfig-version.cmake\n'}
+[0.392234] (robo_urdf_description) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/robo_urdf_description/share/robo_urdf_description/package.xml\n'}
+[0.392564] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.392965] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.393286] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.397986] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.398479] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.398861] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.399199] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[0.399493] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.399758] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.400051] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.400356] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.400675] (-) TimerEvent: {}
+[0.401760] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.402888] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.403338] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.403640] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.403935] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.404213] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.404489] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.406299] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host\n'}
+[0.407987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic\n'}
+[0.408774] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.409092] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.409374] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.409735] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.411365] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.414994] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.415311] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.415671] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.416018] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.416314] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.416653] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[0.416935] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr\n'}
+[0.417262] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.417694] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.422522] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.422872] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.423193] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.423529] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.423901] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.424220] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.424569] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.424922] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.425212] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.425512] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.432798] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.433249] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android\n'}
+[0.439328] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic\n'}
+[0.439928] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[0.440272] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[0.440694] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[0.442380] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[0.442779] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[0.443131] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[0.443499] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[0.443873] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[0.444201] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos\n'}
+[0.444537] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.444954] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.445379] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.449975] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.450432] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.450869] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.451316] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.451663] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.451962] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.452243] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.452538] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.452865] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.453165] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.453444] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.455748] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.460033] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.460420] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.460815] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.461161] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.461464] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.461909] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.462264] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.462620] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.462991] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.463332] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.463702] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.464086] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.464473] (robo_urdf_description) CommandEnded: {'returncode': 0}
+[0.466135] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.467947] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.468771] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.470166] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.471830] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.472614] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.476472] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.480405] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.484051] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.487930] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.494453] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.494933] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.495272] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.495559] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.495889] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.496236] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.496552] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.496852] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.497157] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.497533] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.500631] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.506393] (-) TimerEvent: {}
+[0.508985] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.510505] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.512128] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.512443] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.512740] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.514559] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.515199] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.515534] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.515881] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.516229] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.516555] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.516864] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.517199] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.518511] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.521174] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.521872] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.522268] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.522752] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.523086] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.523439] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.524462] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.524935] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.525423] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.526075] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.526581] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.526947] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.527289] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.527858] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.528286] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/droid/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[0.528819] (robo_urdf_description) JobEnded: {'identifier': 'robo_urdf_description', 'rc': 0}
+[0.531186] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.607427] (-) TimerEvent: {}
+[0.614344] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[0.707741] (-) TimerEvent: {}
+[0.808655] (-) TimerEvent: {}
+[0.914616] (-) TimerEvent: {}
+[1.015300] (-) TimerEvent: {}
+[1.115975] (-) TimerEvent: {}
+[1.217749] (-) TimerEvent: {}
+[1.318590] (-) TimerEvent: {}
+[1.419400] (-) TimerEvent: {}
+[1.520258] (-) TimerEvent: {}
+[1.621031] (-) TimerEvent: {}
+[1.722128] (-) TimerEvent: {}
+[1.824210] (-) TimerEvent: {}
+[1.924912] (-) TimerEvent: {}
+[2.029794] (-) TimerEvent: {}
+[2.130755] (-) TimerEvent: {}
+[2.231898] (-) TimerEvent: {}
+[2.333060] (-) TimerEvent: {}
+[2.437803] (-) TimerEvent: {}
+[2.538869] (-) TimerEvent: {}
+[2.552504] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::\x1b[01;32m\x1b[Kopen\x1b[m\x1b[K(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.553929] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.554661] (sllidar_ros2) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[2.555334] (sllidar_ros2) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.556049] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::\x1b[01;32m\x1b[Kflush\x1b[m\x1b[K(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.556725] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.557396] (sllidar_ros2) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[2.566541] (sllidar_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.567302] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::\x1b[01;32m\x1b[Kwaitforsent\x1b[m\x1b[K(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.567999] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.568745] (sllidar_ros2) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[2.569459] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.573743] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::\x1b[01;32m\x1b[Kwaitforrecv\x1b[m\x1b[K(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.574429] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.575009] (sllidar_ros2) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[2.575568] (sllidar_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.576125] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::\x1b[01;32m\x1b[KcancelOperation\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.576657] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.577222] (sllidar_ros2) StderrLine: {'line': b'  427 |     \x1b[01;35m\x1b[K(int)::write(_selfpipe[1], "x", 1)\x1b[m\x1b[K;\n'}
+[2.582294] (sllidar_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.606911] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[2.608065] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[2.609124] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[2.610504] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[2.611786] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.612870] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.617751] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.619164] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[2.619872] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[2.620482] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.621074] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.626020] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.639117] (-) TimerEvent: {}
+[2.740007] (-) TimerEvent: {}
+[2.826261] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[2.827295] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:41\x1b[m\x1b[K:\n'}
+[2.828019] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::\x1b[01;32m\x1b[KsendTo\x1b[m\x1b[K(const rp::net::SocketAddress*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.828734] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:733:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.829429] (sllidar_ros2) StderrLine: {'line': b'  733 |             assert(\x1b[01;35m\x1b[Kans == len\x1b[m\x1b[K);\n'}
+[2.834514] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.840348] (-) TimerEvent: {}
+[2.946778] (-) TimerEvent: {}
+[3.048557] (-) TimerEvent: {}
+[3.150746] (-) TimerEvent: {}
+[3.176030] (sllidar_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[3.253816] (-) TimerEvent: {}
+[3.357225] (-) TimerEvent: {}
+[3.459985] (-) TimerEvent: {}
+[3.566735] (-) TimerEvent: {}
+[3.668444] (-) TimerEvent: {}
+[3.738351] (sllidar_ros2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o\x1b[0m\n'}
+[3.768834] (-) TimerEvent: {}
+[3.875997] (-) TimerEvent: {}
+[3.978217] (-) TimerEvent: {}
+[4.081080] (-) TimerEvent: {}
+[4.185845] (-) TimerEvent: {}
+[4.287748] (-) TimerEvent: {}
+[4.390007] (-) TimerEvent: {}
+[4.494954] (-) TimerEvent: {}
+[4.598326] (-) TimerEvent: {}
+[4.701799] (-) TimerEvent: {}
+[4.802743] (-) TimerEvent: {}
+[4.903937] (-) TimerEvent: {}
+[5.004837] (-) TimerEvent: {}
+[5.105811] (-) TimerEvent: {}
+[5.210071] (-) TimerEvent: {}
+[5.311155] (-) TimerEvent: {}
+[5.414315] (-) TimerEvent: {}
+[5.515138] (-) TimerEvent: {}
+[5.618181] (-) TimerEvent: {}
+[5.719014] (-) TimerEvent: {}
+[5.765749] (sllidar_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o\x1b[0m\n'}
+[5.819255] (-) TimerEvent: {}
+[5.920648] (-) TimerEvent: {}
+[6.021428] (-) TimerEvent: {}
+[6.082395] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[6.085821] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[6.086891] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[6.090412] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41\x1b[m\x1b[K,\n'}
+[6.091310] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39\x1b[m\x1b[K:\n'}
+[6.091988] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.092791] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[6.093359] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.099168] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[6.100048] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[6.101036] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.106297] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[6.107620] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.121704] (-) TimerEvent: {}
+[6.225837] (-) TimerEvent: {}
+[6.326678] (-) TimerEvent: {}
+[6.427814] (-) TimerEvent: {}
+[6.528830] (-) TimerEvent: {}
+[6.630213] (-) TimerEvent: {}
+[6.662629] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:40\x1b[m\x1b[K:\n'}
+[6.663627] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonCustomSampleDataDecoded\x1b[m\x1b[K(_u8, _u32, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.664466] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.665244] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(\x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, _u32 customCode, const void* data, size_t size) {}\n'}
+[6.670297] (sllidar_ros2) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.671268] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KcustomCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.672250] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, \x1b[01;35m\x1b[K_u32 customCode\x1b[m\x1b[K, const void* data, size_t size) {}\n'}
+[6.673046] (sllidar_ros2) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.678236] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.679319] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, \x1b[01;35m\x1b[Kconst void* data\x1b[m\x1b[K, size_t size) {}\n'}
+[6.680087] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.680829] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.685842] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[6.686890] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.687595] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonDecodingError\x1b[m\x1b[K(int, _u8, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.688426] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrMsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.689146] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(\x1b[01;35m\x1b[Kint errMsg\x1b[m\x1b[K, _u8 ansType, const void* payload, size_t size) {}\n'}
+[6.694425] (sllidar_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.695189] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.696083] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, \x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, const void* payload, size_t size) {}\n'}
+[6.696774] (sllidar_ros2) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.697522] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.702681] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, \x1b[01;35m\x1b[Kconst void* payload\x1b[m\x1b[K, size_t size) {}\n'}
+[6.703509] (sllidar_ros2) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.704427] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.705401] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[6.710576] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.730469] (-) TimerEvent: {}
+[6.831413] (-) TimerEvent: {}
+[6.932289] (-) TimerEvent: {}
+[7.033172] (-) TimerEvent: {}
+[7.137744] (-) TimerEvent: {}
+[7.238606] (-) TimerEvent: {}
+[7.339832] (-) TimerEvent: {}
+[7.440934] (-) TimerEvent: {}
+[7.542033] (-) TimerEvent: {}
+[7.646066] (-) TimerEvent: {}
+[7.746958] (-) TimerEvent: {}
+[7.848035] (-) TimerEvent: {}
+[7.909743] (sllidar_ros2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o\x1b[0m\n'}
+[7.948295] (-) TimerEvent: {}
+[8.049175] (-) TimerEvent: {}
+[8.054613] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[8.055440] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[8.056084] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[8.056648] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41\x1b[m\x1b[K,\n'}
+[8.057784] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39\x1b[m\x1b[K:\n'}
+[8.058832] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.059657] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[8.060486] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.061266] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[8.066355] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[8.067058] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.067687] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[8.068306] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[8.149411] (-) TimerEvent: {}
+[8.254056] (-) TimerEvent: {}
+[8.354879] (-) TimerEvent: {}
+[8.455795] (-) TimerEvent: {}
+[8.556599] (-) TimerEvent: {}
+[8.604796] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40\x1b[m\x1b[K:\n'}
+[8.606171] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonCustomSampleDataDecoded\x1b[m\x1b[K(_u8, _u32, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.607442] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.608772] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(\x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, _u32 customCode, const void* data, size_t size) {}\n'}
+[8.609440] (sllidar_ros2) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.611246] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KcustomCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.611996] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, \x1b[01;35m\x1b[K_u32 customCode\x1b[m\x1b[K, const void* data, size_t size) {}\n'}
+[8.612621] (sllidar_ros2) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.613267] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.618745] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, \x1b[01;35m\x1b[Kconst void* data\x1b[m\x1b[K, size_t size) {}\n'}
+[8.619470] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.620007] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.620635] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[8.621287] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.626237] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonDecodingError\x1b[m\x1b[K(int, _u8, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.626884] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrMsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.627497] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(\x1b[01;35m\x1b[Kint errMsg\x1b[m\x1b[K, _u8 ansType, const void* payload, size_t size) {}\n'}
+[8.627989] (sllidar_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.628526] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.629300] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, \x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, const void* payload, size_t size) {}\n'}
+[8.634777] (sllidar_ros2) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.635878] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.637014] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, \x1b[01;35m\x1b[Kconst void* payload\x1b[m\x1b[K, size_t size) {}\n'}
+[8.643011] (sllidar_ros2) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.644212] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.645344] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[8.650995] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.656937] (-) TimerEvent: {}
+[8.711850] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::\x1b[01;32m\x1b[K_onScanNodeDenseCapsuleData\x1b[m\x1b[K(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.713222] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers\x07-Wignored-qualifiers\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.714512] (sllidar_ros2) StderrLine: {'line': b'  763 |             const int dist = \x1b[01;35m\x1b[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)\x1b[m\x1b[K;\n'}
+[8.715652] (sllidar_ros2) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.757169] (-) TimerEvent: {}
+[8.861744] (-) TimerEvent: {}
+[8.962570] (-) TimerEvent: {}
+[9.063389] (-) TimerEvent: {}
+[9.164176] (-) TimerEvent: {}
+[9.265038] (-) TimerEvent: {}
+[9.369770] (-) TimerEvent: {}
+[9.470613] (-) TimerEvent: {}
+[9.548221] (sllidar_ros2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o\x1b[0m\n'}
+[9.570936] (-) TimerEvent: {}
+[9.671915] (-) TimerEvent: {}
+[9.773082] (-) TimerEvent: {}
+[9.878346] (-) TimerEvent: {}
+[9.979517] (-) TimerEvent: {}
+[10.080730] (-) TimerEvent: {}
+[10.173589] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[10.174445] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[10.175074] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[10.175762] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41\x1b[m\x1b[K,\n'}
+[10.176528] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39\x1b[m\x1b[K:\n'}
+[10.177289] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.182667] (-) TimerEvent: {}
+[10.189789] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[10.190710] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.191396] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[10.192008] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[10.192681] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.193333] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[10.194087] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.282914] (-) TimerEvent: {}
+[10.386830] (-) TimerEvent: {}
+[10.490607] (-) TimerEvent: {}
+[10.592870] (-) TimerEvent: {}
+[10.698905] (-) TimerEvent: {}
+[10.768028] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40\x1b[m\x1b[K:\n'}
+[10.769513] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonCustomSampleDataDecoded\x1b[m\x1b[K(_u8, _u32, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.773365] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.774410] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(\x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, _u32 customCode, const void* data, size_t size) {}\n'}
+[10.775241] (sllidar_ros2) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[10.776108] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KcustomCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.777212] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, \x1b[01;35m\x1b[K_u32 customCode\x1b[m\x1b[K, const void* data, size_t size) {}\n'}
+[10.786567] (sllidar_ros2) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.787388] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.788078] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, \x1b[01;35m\x1b[Kconst void* data\x1b[m\x1b[K, size_t size) {}\n'}
+[10.788741] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[10.789389] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.794598] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[10.795476] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[10.796315] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonDecodingError\x1b[m\x1b[K(int, _u8, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.797095] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrMsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.802723] (-) TimerEvent: {}
+[10.804918] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(\x1b[01;35m\x1b[Kint errMsg\x1b[m\x1b[K, _u8 ansType, const void* payload, size_t size) {}\n'}
+[10.805917] (sllidar_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[10.806844] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.807607] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, \x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, const void* payload, size_t size) {}\n'}
+[10.808383] (sllidar_ros2) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[10.809097] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.814370] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, \x1b[01;35m\x1b[Kconst void* payload\x1b[m\x1b[K, size_t size) {}\n'}
+[10.815306] (sllidar_ros2) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[10.816045] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.816781] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[10.817507] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[10.902988] (-) TimerEvent: {}
+[11.006809] (-) TimerEvent: {}
+[11.110921] (-) TimerEvent: {}
+[11.215151] (-) TimerEvent: {}
+[11.318865] (-) TimerEvent: {}
+[11.420630] (-) TimerEvent: {}
+[11.526158] (-) TimerEvent: {}
+[11.595514] (sllidar_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[11.626424] (-) TimerEvent: {}
+[11.730813] (-) TimerEvent: {}
+[11.832904] (-) TimerEvent: {}
+[11.922501] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[11.923392] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[11.923991] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[11.924593] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41\x1b[m\x1b[K,\n'}
+[11.925946] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39\x1b[m\x1b[K:\n'}
+[11.926750] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.927405] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[11.928011] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.928827] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[11.929513] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[11.934775] (-) TimerEvent: {}
+[11.935434] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.936202] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[11.937010] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.035082] (-) TimerEvent: {}
+[12.136170] (-) TimerEvent: {}
+[12.237832] (-) TimerEvent: {}
+[12.341755] (-) TimerEvent: {}
+[12.442615] (-) TimerEvent: {}
+[12.472548] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40\x1b[m\x1b[K:\n'}
+[12.473937] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonCustomSampleDataDecoded\x1b[m\x1b[K(_u8, _u32, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.474764] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.475446] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(\x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, _u32 customCode, const void* data, size_t size) {}\n'}
+[12.476084] (sllidar_ros2) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.476674] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KcustomCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.477332] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, \x1b[01;35m\x1b[K_u32 customCode\x1b[m\x1b[K, const void* data, size_t size) {}\n'}
+[12.482420] (sllidar_ros2) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.483141] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.489787] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, \x1b[01;35m\x1b[Kconst void* data\x1b[m\x1b[K, size_t size) {}\n'}
+[12.490696] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[12.491320] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.492016] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[12.492644] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[12.493269] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonDecodingError\x1b[m\x1b[K(int, _u8, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.493998] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrMsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.494708] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(\x1b[01;35m\x1b[Kint errMsg\x1b[m\x1b[K, _u8 ansType, const void* payload, size_t size) {}\n'}
+[12.495299] (sllidar_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[12.495931] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.496529] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, \x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, const void* payload, size_t size) {}\n'}
+[12.497093] (sllidar_ros2) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.501819] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.502700] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, \x1b[01;35m\x1b[Kconst void* payload\x1b[m\x1b[K, size_t size) {}\n'}
+[12.503413] (sllidar_ros2) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.504086] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.504755] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[12.505378] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[12.542856] (-) TimerEvent: {}
+[12.646499] (-) TimerEvent: {}
+[12.748228] (-) TimerEvent: {}
+[12.854702] (-) TimerEvent: {}
+[12.955524] (-) TimerEvent: {}
+[13.056780] (-) TimerEvent: {}
+[13.158129] (-) TimerEvent: {}
+[13.192009] (sllidar_ros2) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[13.261774] (-) TimerEvent: {}
+[13.363563] (-) TimerEvent: {}
+[13.465455] (-) TimerEvent: {}
+[13.566492] (-) TimerEvent: {}
+[13.669758] (-) TimerEvent: {}
+[13.770594] (-) TimerEvent: {}
+[13.848015] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[13.849213] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[13.850130] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[13.854357] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35\x1b[m\x1b[K:\n'}
+[13.855051] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.855756] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[13.856374] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.856920] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[13.857540] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[13.862625] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.863384] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[13.863992] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.873732] (-) TimerEvent: {}
+[13.956296] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[13.957342] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[13.958293] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[13.959175] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[13.959950] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.960867] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[13.970185] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.971014] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.971745] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[13.972440] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.973949] (-) TimerEvent: {}
+[13.993439] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:43\x1b[m\x1b[K:\n'}
+[13.994647] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic rp::hal::Thread rp::hal::Thread::\x1b[01;32m\x1b[Kcreate\x1b[m\x1b[K(thread_proc_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.995372] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:52:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcast between incompatible function types from \xe2\x80\x98\x1b[01m\x1b[Kthread_proc_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int (*)(void*)\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid* (*)(void*)\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type\x07-Wcast-function-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.995987] (sllidar_ros2) StderrLine: {'line': b'   52 |     pthread_create((pthread_t *)&newborn._handle, NULL, \x1b[01;35m\x1b[K(void * (*)(void *))proc\x1b[m\x1b[K, data);\n'}
+[13.996551] (sllidar_ros2) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.001738] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::hal::Thread::\x1b[01;32m\x1b[Kjoin\x1b[m\x1b[K(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.002598] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:176:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.003225] (sllidar_ros2) StderrLine: {'line': b'  176 | u_result Thread::join(\x1b[01;35m\x1b[Kunsigned long timeout\x1b[m\x1b[K)\n'}
+[14.003878] (sllidar_ros2) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[14.077753] (-) TimerEvent: {}
+[14.178574] (-) TimerEvent: {}
+[14.280498] (-) TimerEvent: {}
+[14.382432] (-) TimerEvent: {}
+[14.405873] (sllidar_ros2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_async_transceiver.cpp.o\x1b[0m\n'}
+[14.482723] (-) TimerEvent: {}
+[14.584215] (-) TimerEvent: {}
+[14.685014] (-) TimerEvent: {}
+[14.789753] (-) TimerEvent: {}
+[14.890712] (-) TimerEvent: {}
+[14.991632] (-) TimerEvent: {}
+[15.093020] (-) TimerEvent: {}
+[15.193977] (-) TimerEvent: {}
+[15.285857] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[15.286683] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[15.287394] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[15.288073] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[15.288589] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.289205] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.294042] (-) TimerEvent: {}
+[15.295178] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.295956] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[15.296571] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[15.297142] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.302049] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[15.302793] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.394293] (-) TimerEvent: {}
+[15.497749] (-) TimerEvent: {}
+[15.555442] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::\x1b[01;32m\x1b[Kconnect\x1b[m\x1b[K(const char*, _u32, _u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.557101] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.560130] (sllidar_ros2) StderrLine: {'line': b'   67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, \x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K)\n'}
+[15.561116] (sllidar_ros2) StderrLine: {'line': b'      |                                                                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[15.566450] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::\x1b[01;32m\x1b[Kreset\x1b[m\x1b[K(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.567212] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.567899] (sllidar_ros2) StderrLine: {'line': b'  101 |     u_result RPlidarDriver::reset(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K)\n'}
+[15.568590] (sllidar_ros2) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[15.571287] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result rp::standalone::rplidar::RPlidarDriver::\x1b[01;32m\x1b[KgetScanDataWithInterval\x1b[m\x1b[K(rplidar_response_measurement_node_t*, size_t&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.573311] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodebuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.574200] (sllidar_ros2) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(\x1b[01;35m\x1b[Krplidar_response_measurement_node_t * nodebuffer\x1b[m\x1b[K, size_t & count)\n'}
+[15.574929] (sllidar_ros2) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.575570] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.581801] (sllidar_ros2) StderrLine: {'line': b'  180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, \x1b[01;35m\x1b[Ksize_t & count\x1b[m\x1b[K)\n'}
+[15.582833] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[15.601750] (-) TimerEvent: {}
+[15.702648] (-) TimerEvent: {}
+[15.803486] (-) TimerEvent: {}
+[15.904505] (-) TimerEvent: {}
+[16.005371] (-) TimerEvent: {}
+[16.105017] (sllidar_ros2) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o\x1b[0m\n'}
+[16.106234] (-) TimerEvent: {}
+[16.181757] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[16.182882] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36\x1b[m\x1b[K,\n'}
+[16.183702] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33\x1b[m\x1b[K:\n'}
+[16.184596] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.185387] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.186145] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.186758] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.187369] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.187952] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.209812] (-) TimerEvent: {}
+[16.277824] (sllidar_ros2) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o\x1b[0m\n'}
+[16.310160] (-) TimerEvent: {}
+[16.411124] (-) TimerEvent: {}
+[16.514416] (-) TimerEvent: {}
+[16.546552] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[16.550381] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[16.551043] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[16.551700] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35\x1b[m\x1b[K:\n'}
+[16.552507] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.553167] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.558248] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.558826] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[16.559598] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[16.560300] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.561012] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[16.565845] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[16.614658] (-) TimerEvent: {}
+[16.715490] (-) TimerEvent: {}
+[16.816501] (-) TimerEvent: {}
+[16.917358] (-) TimerEvent: {}
+[17.021778] (-) TimerEvent: {}
+[17.095246] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:44\x1b[m\x1b[K:\n'}
+[17.096471] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::IAsyncProtocolCodec::\x1b[01;32m\x1b[KonChannelError\x1b[m\x1b[K(u_result)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.097458] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.098265] (sllidar_ros2) StderrLine: {'line': b'   90 |         virtual void   onChannelError(\x1b[01;35m\x1b[Ku_result errCode\x1b[m\x1b[K) {}\n'}
+[17.099014] (sllidar_ros2) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[17.125719] (-) TimerEvent: {}
+[17.226581] (-) TimerEvent: {}
+[17.328035] (-) TimerEvent: {}
+[17.430091] (-) TimerEvent: {}
+[17.532275] (-) TimerEvent: {}
+[17.638965] (-) TimerEvent: {}
+[17.741179] (-) TimerEvent: {}
+[17.842028] (-) TimerEvent: {}
+[17.848357] (sllidar_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o\x1b[0m\n'}
+[17.942275] (-) TimerEvent: {}
+[18.046229] (-) TimerEvent: {}
+[18.147122] (-) TimerEvent: {}
+[18.248717] (-) TimerEvent: {}
+[18.349711] (-) TimerEvent: {}
+[18.454032] (-) TimerEvent: {}
+[18.497324] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[18.501368] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[18.502340] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[18.503075] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33\x1b[m\x1b[K:\n'}
+[18.503801] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.504562] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[18.505267] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.510608] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[18.511347] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[18.511975] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[18.512618] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[18.513372] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.557760] (-) TimerEvent: {}
+[18.658733] (-) TimerEvent: {}
+[18.759644] (-) TimerEvent: {}
+[18.860560] (-) TimerEvent: {}
+[18.961488] (-) TimerEvent: {}
+[19.065759] (-) TimerEvent: {}
+[19.166615] (-) TimerEvent: {}
+[19.203501] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:50\x1b[m\x1b[K:\n'}
+[19.205126] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonCustomSampleDataDecoded\x1b[m\x1b[K(_u8, _u32, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.206941] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.208364] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(\x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, _u32 customCode, const void* data, size_t size) {}\n'}
+[19.210249] (sllidar_ros2) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[19.211300] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KcustomCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.212089] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, \x1b[01;35m\x1b[K_u32 customCode\x1b[m\x1b[K, const void* data, size_t size) {}\n'}
+[19.218220] (sllidar_ros2) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.219261] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.219881] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, \x1b[01;35m\x1b[Kconst void* data\x1b[m\x1b[K, size_t size) {}\n'}
+[19.220522] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[19.221116] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.226047] (sllidar_ros2) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[19.226895] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                                \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[19.227582] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::\x1b[01;32m\x1b[KonDecodingError\x1b[m\x1b[K(int, _u8, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.228326] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrMsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.228935] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(\x1b[01;35m\x1b[Kint errMsg\x1b[m\x1b[K, _u8 ansType, const void* payload, size_t size) {}\n'}
+[19.233830] (sllidar_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[19.234853] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.235684] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, \x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, const void* payload, size_t size) {}\n'}
+[19.236429] (sllidar_ros2) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[19.237162] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.242437] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, \x1b[01;35m\x1b[Kconst void* payload\x1b[m\x1b[K, size_t size) {}\n'}
+[19.243296] (sllidar_ros2) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[19.244019] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.244725] (sllidar_ros2) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[19.245428] (sllidar_ros2) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[19.266865] (-) TimerEvent: {}
+[19.286080] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:51\x1b[m\x1b[K:\n'}
+[19.286959] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::IAsyncProtocolCodec::\x1b[01;32m\x1b[KonChannelError\x1b[m\x1b[K(u_result)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.287614] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.288298] (sllidar_ros2) StderrLine: {'line': b'   90 |         virtual void   onChannelError(\x1b[01;35m\x1b[Ku_result errCode\x1b[m\x1b[K) {}\n'}
+[19.288867] (sllidar_ros2) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[19.369796] (-) TimerEvent: {}
+[19.403250] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::\x1b[01;32m\x1b[Kreset\x1b[m\x1b[K(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.404290] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:511:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.405174] (sllidar_ros2) StderrLine: {'line': b'  511 |         sl_result reset(\x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[19.405993] (sllidar_ros2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.425740] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::\x1b[01;32m\x1b[KstartScan\x1b[m\x1b[K(bool, bool, sl_u32, sl::LidarScanMode*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.426846] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:586:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Koptions\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.427773] (sllidar_ros2) StderrLine: {'line': b'  586 |         sl_result startScan(bool force, bool useTypicalScan, \x1b[01;35m\x1b[Ksl_u32 options = 0\x1b[m\x1b[K, LidarScanMode* outUsedScanMode = nullptr)\n'}
+[19.428385] (sllidar_ros2) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.441744] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::\x1b[01;32m\x1b[Kstop\x1b[m\x1b[K(sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.442748] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:763:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.443512] (sllidar_ros2) StderrLine: {'line': b'  763 |         sl_result stop(\x1b[01;35m\x1b[Ksl_u32 timeout = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[19.444130] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.457794] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::\x1b[01;32m\x1b[KgetFrequency\x1b[m\x1b[K(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.458880] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:880:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knodes\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.459780] (sllidar_ros2) StderrLine: {'line': b'  880 |         sl_result getFrequency(const LidarScanMode& scanMode, \x1b[01;35m\x1b[Kconst sl_lidar_response_measurement_node_hq_t* nodes\x1b[m\x1b[K, size_t count, float& frequency)\n'}
+[19.460702] (sllidar_ros2) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[19.470103] (-) TimerEvent: {}
+[19.472604] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual sl_result sl::SlamtecLidarDriver::\x1b[01;32m\x1b[KgetMotorInfo\x1b[m\x1b[K(sl::LidarMotorInfo&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.473492] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1023:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.474366] (sllidar_ros2) StderrLine: {'line': b' 1023 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs\x1b[m\x1b[K)\n'}
+[19.474994] (sllidar_ros2) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.480326] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ku_result sl::SlamtecLidarDriver::\x1b[01;32m\x1b[KgetScanModeCount\x1b[m\x1b[K(sl_u16&, sl_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.481631] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1199:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtimeoutInMs\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.482558] (sllidar_ros2) StderrLine: {'line': b' 1199 |         u_result getScanModeCount(sl_u16& modeCount, \x1b[01;35m\x1b[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT\x1b[m\x1b[K)\n'}
+[19.483347] (sllidar_ros2) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.573743] (-) TimerEvent: {}
+[19.674624] (-) TimerEvent: {}
+[19.713856] (sllidar_ros2) StderrLine: {'line': b'/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::RawSampleNodeHolder<T>::\x1b[01;32m\x1b[KpushNode\x1b[m\x1b[K(_u64, const T*) \x1b[35m\x1b[K[with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.715561] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1648:42:\x1b[m\x1b[K   required from here\n'}
+[19.722040] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:202:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimestamp_uS\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.723349] (sllidar_ros2) StderrLine: {'line': b'  202 |         void pushNode(\x1b[01;35m\x1b[K_u64 timestamp_uS\x1b[m\x1b[K, const T* node)\n'}
+[19.724463] (sllidar_ros2) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.777787] (-) TimerEvent: {}
+[19.878946] (-) TimerEvent: {}
+[19.980004] (-) TimerEvent: {}
+[20.067475] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[20.068463] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[20.069160] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[20.070000] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35\x1b[m\x1b[K:\n'}
+[20.074556] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.075291] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.075952] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.081800] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[20.083036] (-) TimerEvent: {}
+[20.083671] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K:\n'}
+[20.084464] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.085215] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[20.086052] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[20.185755] (-) TimerEvent: {}
+[20.286632] (-) TimerEvent: {}
+[20.388424] (-) TimerEvent: {}
+[20.415765] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:\x1b[m\x1b[K At global scope:\n'}
+[20.417207] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:83:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::\x1b[01;32m\x1b[Kconvert\x1b[m\x1b[K(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.418267] (sllidar_ros2) StderrLine: {'line': b'   83 |     static void \x1b[01;35m\x1b[Kconvert\x1b[m\x1b[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)\n'}
+[20.419232] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.420028] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:75:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::\x1b[01;32m\x1b[Kconvert\x1b[m\x1b[K(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.420813] (sllidar_ros2) StderrLine: {'line': b'   75 |     static void \x1b[01;35m\x1b[Kconvert\x1b[m\x1b[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)\n'}
+[20.421486] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[20.427055] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:70:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sl::\x1b[01;32m\x1b[KprintDeprecationWarn\x1b[m\x1b[K(const char*, const char*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.427878] (sllidar_ros2) StderrLine: {'line': b'   70 |     static void \x1b[01;35m\x1b[KprintDeprecationWarn\x1b[m\x1b[K(const char* fn, const char* replacement)\n'}
+[20.428596] (sllidar_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.488731] (-) TimerEvent: {}
+[20.594384] (-) TimerEvent: {}
+[20.695234] (-) TimerEvent: {}
+[20.796362] (-) TimerEvent: {}
+[20.883750] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:49\x1b[m\x1b[K:\n'}
+[20.884891] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::IAsyncProtocolCodec::\x1b[01;32m\x1b[KonChannelError\x1b[m\x1b[K(u_result)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.885851] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.886834] (sllidar_ros2) StderrLine: {'line': b'   90 |         virtual void   onChannelError(\x1b[01;35m\x1b[Ku_result errCode\x1b[m\x1b[K) {}\n'}
+[20.887608] (sllidar_ros2) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[20.896561] (-) TimerEvent: {}
+[21.001756] (-) TimerEvent: {}
+[21.104267] (-) TimerEvent: {}
+[21.206723] (-) TimerEvent: {}
+[21.310846] (-) TimerEvent: {}
+[21.413069] (-) TimerEvent: {}
+[21.518047] (-) TimerEvent: {}
+[21.589976] (sllidar_ros2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o\x1b[0m\n'}
+[21.618318] (-) TimerEvent: {}
+[21.721759] (-) TimerEvent: {}
+[21.822537] (-) TimerEvent: {}
+[21.923351] (-) TimerEvent: {}
+[22.024164] (-) TimerEvent: {}
+[22.130304] (-) TimerEvent: {}
+[22.231745] (-) TimerEvent: {}
+[22.333452] (-) TimerEvent: {}
+[22.434621] (-) TimerEvent: {}
+[22.535383] (-) TimerEvent: {}
+[22.604751] (sllidar_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o\x1b[0m\n'}
+[22.637834] (-) TimerEvent: {}
+[22.738729] (-) TimerEvent: {}
+[22.839593] (-) TimerEvent: {}
+[22.921791] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[22.924099] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[22.929741] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33\x1b[m\x1b[K:\n'}
+[22.930849] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.931941] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[22.932888] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[22.938142] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.938938] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[22.939561] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[22.940137] (-) TimerEvent: {}
+[23.040839] (-) TimerEvent: {}
+[23.141737] (-) TimerEvent: {}
+[23.245957] (-) TimerEvent: {}
+[23.257893] (sllidar_ros2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o\x1b[0m\n'}
+[23.346230] (-) TimerEvent: {}
+[23.447089] (-) TimerEvent: {}
+[23.550011] (-) TimerEvent: {}
+[23.651234] (-) TimerEvent: {}
+[23.752064] (-) TimerEvent: {}
+[23.852932] (-) TimerEvent: {}
+[23.958075] (-) TimerEvent: {}
+[23.993188] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[23.994815] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[24.001739] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[24.003065] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.004444] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[24.005507] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.006885] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.008013] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[24.009200] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.036586] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::TcpChannel::\x1b[01;32m\x1b[KsetStatus\x1b[m\x1b[K(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.045817] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:109:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.047533] (sllidar_ros2) StderrLine: {'line': b'  109 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[24.048332] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[24.058444] (-) TimerEvent: {}
+[24.159524] (-) TimerEvent: {}
+[24.260288] (-) TimerEvent: {}
+[24.361055] (-) TimerEvent: {}
+[24.461798] (-) TimerEvent: {}
+[24.565777] (-) TimerEvent: {}
+[24.584696] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[24.585653] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[24.586430] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33\x1b[m\x1b[K:\n'}
+[24.587087] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.587699] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[24.588294] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.589315] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.590198] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[24.590838] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[24.608654] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::UdpChannel::\x1b[01;32m\x1b[KsetStatus\x1b[m\x1b[K(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.609651] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/droid/ros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:112:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[24.610512] (sllidar_ros2) StderrLine: {'line': b'  112 |         void setStatus(\x1b[01;35m\x1b[K_u32 flag\x1b[m\x1b[K){}\n'}
+[24.611123] (sllidar_ros2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~^~~~\x1b[m\x1b[K\n'}
+[24.665996] (-) TimerEvent: {}
+[24.766785] (-) TimerEvent: {}
+[24.867560] (-) TimerEvent: {}
+[24.968256] (-) TimerEvent: {}
+[25.069211] (-) TimerEvent: {}
+[25.170290] (-) TimerEvent: {}
+[25.271005] (-) TimerEvent: {}
+[25.371765] (-) TimerEvent: {}
+[25.472591] (-) TimerEvent: {}
+[25.573262] (-) TimerEvent: {}
+[25.673986] (-) TimerEvent: {}
+[25.774682] (-) TimerEvent: {}
+[25.875348] (-) TimerEvent: {}
+[25.976028] (-) TimerEvent: {}
+[26.076690] (-) TimerEvent: {}
+[26.177351] (-) TimerEvent: {}
+[26.278089] (-) TimerEvent: {}
+[26.378775] (-) TimerEvent: {}
+[26.479587] (-) TimerEvent: {}
+[26.580690] (-) TimerEvent: {}
+[26.681702] (-) TimerEvent: {}
+[26.782935] (-) TimerEvent: {}
+[26.883601] (-) TimerEvent: {}
+[26.984282] (-) TimerEvent: {}
+[27.084968] (-) TimerEvent: {}
+[27.185702] (-) TimerEvent: {}
+[27.286393] (-) TimerEvent: {}
+[27.387067] (-) TimerEvent: {}
+[27.487761] (-) TimerEvent: {}
+[27.588429] (-) TimerEvent: {}
+[27.689116] (-) TimerEvent: {}
+[27.789842] (-) TimerEvent: {}
+[27.890558] (-) TimerEvent: {}
+[27.991264] (-) TimerEvent: {}
+[28.091956] (-) TimerEvent: {}
+[28.192651] (-) TimerEvent: {}
+[28.293378] (-) TimerEvent: {}
+[28.394160] (-) TimerEvent: {}
+[28.494842] (-) TimerEvent: {}
+[28.595572] (-) TimerEvent: {}
+[28.696265] (-) TimerEvent: {}
+[28.797007] (-) TimerEvent: {}
+[28.897711] (-) TimerEvent: {}
+[28.998358] (-) TimerEvent: {}
+[29.098993] (-) TimerEvent: {}
+[29.199653] (-) TimerEvent: {}
+[29.300315] (-) TimerEvent: {}
+[29.400981] (-) TimerEvent: {}
+[29.501768] (-) TimerEvent: {}
+[29.602837] (-) TimerEvent: {}
+[29.703638] (-) TimerEvent: {}
+[29.740651] (sllidar_ros2) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[29.803851] (-) TimerEvent: {}
+[29.904509] (-) TimerEvent: {}
+[30.005277] (-) TimerEvent: {}
+[30.106366] (-) TimerEvent: {}
+[30.207174] (-) TimerEvent: {}
+[30.308159] (-) TimerEvent: {}
+[30.409143] (-) TimerEvent: {}
+[30.509972] (-) TimerEvent: {}
+[30.610933] (-) TimerEvent: {}
+[30.711631] (-) TimerEvent: {}
+[30.812444] (-) TimerEvent: {}
+[30.913155] (-) TimerEvent: {}
+[31.013962] (-) TimerEvent: {}
+[31.114658] (-) TimerEvent: {}
+[31.215406] (-) TimerEvent: {}
+[31.302371] (sllidar_ros2) StdoutLine: {'line': b'[ 95%] Built target sllidar_node\n'}
+[31.315580] (-) TimerEvent: {}
+[31.416177] (-) TimerEvent: {}
+[31.516790] (-) TimerEvent: {}
+[31.617386] (-) TimerEvent: {}
+[31.718034] (-) TimerEvent: {}
+[31.818694] (-) TimerEvent: {}
+[31.919296] (-) TimerEvent: {}
+[32.019924] (-) TimerEvent: {}
+[32.120562] (-) TimerEvent: {}
+[32.221152] (-) TimerEvent: {}
+[32.321740] (-) TimerEvent: {}
+[32.422331] (-) TimerEvent: {}
+[32.522934] (-) TimerEvent: {}
+[32.623519] (-) TimerEvent: {}
+[32.724089] (-) TimerEvent: {}
+[32.824684] (-) TimerEvent: {}
+[32.925279] (-) TimerEvent: {}
+[33.025907] (-) TimerEvent: {}
+[33.126494] (-) TimerEvent: {}
+[33.227084] (-) TimerEvent: {}
+[33.327693] (-) TimerEvent: {}
+[33.428282] (-) TimerEvent: {}
+[33.528870] (-) TimerEvent: {}
+[33.629464] (-) TimerEvent: {}
+[33.730118] (-) TimerEvent: {}
+[33.830712] (-) TimerEvent: {}
+[33.931310] (-) TimerEvent: {}
+[34.031916] (-) TimerEvent: {}
+[34.132504] (-) TimerEvent: {}
+[34.233098] (-) TimerEvent: {}
+[34.333693] (-) TimerEvent: {}
+[34.434277] (-) TimerEvent: {}
+[34.534878] (-) TimerEvent: {}
+[34.635484] (-) TimerEvent: {}
+[34.736092] (-) TimerEvent: {}
+[34.836701] (-) TimerEvent: {}
+[34.937302] (-) TimerEvent: {}
+[35.037944] (-) TimerEvent: {}
+[35.138541] (-) TimerEvent: {}
+[35.239136] (-) TimerEvent: {}
+[35.339781] (-) TimerEvent: {}
+[35.440394] (-) TimerEvent: {}
+[35.540991] (-) TimerEvent: {}
+[35.641638] (-) TimerEvent: {}
+[35.742219] (-) TimerEvent: {}
+[35.842922] (-) TimerEvent: {}
+[35.943634] (-) TimerEvent: {}
+[36.044244] (-) TimerEvent: {}
+[36.144857] (-) TimerEvent: {}
+[36.245471] (-) TimerEvent: {}
+[36.346132] (-) TimerEvent: {}
+[36.446746] (-) TimerEvent: {}
+[36.547364] (-) TimerEvent: {}
+[36.647998] (-) TimerEvent: {}
+[36.748659] (-) TimerEvent: {}
+[36.849286] (-) TimerEvent: {}
+[36.949947] (-) TimerEvent: {}
+[37.050580] (-) TimerEvent: {}
+[37.151258] (-) TimerEvent: {}
+[37.252086] (-) TimerEvent: {}
+[37.352762] (-) TimerEvent: {}
+[37.453410] (-) TimerEvent: {}
+[37.554104] (-) TimerEvent: {}
+[37.645709] (sllidar_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sllidar_client\x1b[0m\n'}
+[37.654293] (-) TimerEvent: {}
+[37.754929] (-) TimerEvent: {}
+[37.855595] (-) TimerEvent: {}
+[37.956322] (-) TimerEvent: {}
+[38.057105] (-) TimerEvent: {}
+[38.158125] (-) TimerEvent: {}
+[38.258831] (-) TimerEvent: {}
+[38.359542] (-) TimerEvent: {}
+[38.460270] (-) TimerEvent: {}
+[38.560928] (-) TimerEvent: {}
+[38.661605] (-) TimerEvent: {}
+[38.762323] (-) TimerEvent: {}
+[38.862954] (-) TimerEvent: {}
+[38.963518] (-) TimerEvent: {}
+[38.985739] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[39.017190] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[39.018832] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[39.019530] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/droid/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/droid/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'USER': 'droid', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'TEXTDOMAIN': 'pam_chksshpwd', 'HOSTNAME': 'DROID', 'XDG_SESSION_TYPE': 'tty', 'XDG_CACHE_HOME': '/home/droid/.cache', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/droid', 'OLDPWD': '/home/droid', 'FASTDDS_BUILTIN_TRANSPORTS': 'UDPv4', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w \\$\\[\\033[00m\\]', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'XDG_STATE_HOME': '/home/droid/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'container': 'podman', 'COLCON_PREFIX_PATH': '/home/droid/lidar_ws/install:/home/droid/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'droid', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_GB.UTF-8', 'XDG_DATA_HOME': '/home/droid/.local/share', 'XDG_CONFIG_HOME': '/home/droid/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry', 'SHELL': '/usr/bin/bash', 'NO_AT_BRIDGE': '1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/droid/ros2_ws/build/sllidar_ros2', 'CONTAINER_ID': 'ROS2-Jazzy', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/droid/lidar_ws/install/sllidar_ros2:/home/droid/lidar_ws/install/rf2o_laser_odometry:/opt/ros/jazzy'}), 'shell': False}
+[39.043086] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.043664] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch\n'}
+[39.044332] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[39.046063] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[39.047545] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[39.048285] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[39.048902] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[39.049515] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[39.050182] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[39.050793] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[39.051489] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[39.052930] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[39.053705] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[39.054344] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[39.055130] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[39.056546] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[39.057228] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[39.057927] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[39.059353] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[39.060033] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[39.061363] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[39.062126] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[39.062736] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[39.063326] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[39.063698] (-) TimerEvent: {}
+[39.064060] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[39.064715] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[39.065418] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz\n'}
+[39.066003] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[39.067545] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[39.074043] (sllidar_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/droid/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""\n'}
+[39.074610] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[39.086186] (sllidar_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/droid/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client" to ""\n'}
+[39.086744] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[39.087194] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[39.087828] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[39.088304] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[39.088758] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[39.089206] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[39.089684] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[39.090140] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[39.090596] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[39.091029] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[39.091474] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[39.091936] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[39.092457] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[39.092914] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[39.093336] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[39.093822] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[39.094264] (sllidar_ros2) StdoutLine: {'line': b'-- Installing: /home/droid/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[39.098276] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[39.152755] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[39.157347] (-) EventReactorShutdown: {}
